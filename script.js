@@ -124,20 +124,20 @@ decline = function(p1, p2, n){
 
 display = function(){
 	
-	$("#nom-s").html(declensionChart.nomS.toString());
-	$("#nom-pl").html(declensionChart.nomPl.toString());
+	$("#nomS").html(declensionChart.nomS.toString());
+	$("#nomPl").html(declensionChart.nomPl.toString());
 
-	$("#gen-s").html(declensionChart.genS.toString());
-	$("#gen-pl").html(declensionChart.genPl.toString());
+	$("#genS").html(declensionChart.genS.toString());
+	$("#genPl").html(declensionChart.genPl.toString());
 
-	$("#dat-s").html(declensionChart.datS.toString());
-	$("#dat-pl").html(declensionChart.datPl.toString());
+	$("#datS").html(declensionChart.datS.toString());
+	$("#datPl").html(declensionChart.datPl.toString());
 
-	$("#acc-s").html(declensionChart.accS.toString());
-	$("#acc-pl").html(declensionChart.accPl.toString());
+	$("#accS").html(declensionChart.accS.toString());
+	$("#accPl").html(declensionChart.accPl.toString());
 
-	$("#abl-s").html(declensionChart.ablS.toString());
-	$("#abl-pl").html(declensionChart.ablPl.toString());
+	$("#ablS").html(declensionChart.ablS.toString());
+	$("#ablPl").html(declensionChart.ablPl.toString());
 	
 }
 
