@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Latin Noun Decliner</title>
+			<link rel="stylesheet" type="text/css" href="main.css">
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	</head>
+
+	<body>
+		<header>
+			<h1 class="text-center">Latin Noun Decliner<h1>
+
+
+		</header>
+
+
+
+
+
+		<div class="container">
+			<form class="form-inline" role="form">
+				<div class="form-group">
+					<label class="sr-only" for="principle1">First Principle Part</label>
+					<input type="text" class="form-control" id="principle1" placeholder="First Principle Part">
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="principle2">Second Principle Part</label>
+					<input type="text" class="form-control" id="principle2" placeholder="Second Principle Part">
+				</div>
+				<div class="checkbox">
+				    <label>
+						 Neuter <input type="checkbox" id="neuter">
+				    </label>
+				</div>
+				<button type="submit" class="btn btn-default" id="submit">Decline!</button>
+			</form>
+			<br>
+			<table class="table table-bordered" id="chart">
+  				<tr>
+	  				<th class="col-xs-1">Case</th>
+	  				<th class="col-xs-4">Singular</th>
+	  				<th class="col-xs-4">Plural</th>
+				</tr>
+				<tr>
+					<td>Nominative</td>
+					<td id="nom-singular">Nominative Singular</td>
+					<td id="nom-plural">Nominative Plural</td>
+				</tr>
+				<tr>
+					<td>Genative</td>
+					<td id="gen-singular">Genative Singular</td>
+					<td id="gen-plural">Genative Plural</td>
+				</tr>
+				<tr>
+					<td>Dative</td>
+					<td id="dat-singular">Dative Singular</td>
+					<td id="dat-plural">Dative Plural</td>
+				</tr>
+				<tr>
+					<td>Accusative</td>
+					<td id="acc-singular">Accusative Singular</td>
+					<td id="acc-plural">Accusative Plural</td>
+				</tr>
+				<tr>
+					<td>Ablative</td>
+					<td id="abl-singular">Ablative Singular</td>
+					<td id="abl-plural">Ablative Plural</td>
+				</tr>
+				
+							
+				
+			</table>
+		</div>
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
+
